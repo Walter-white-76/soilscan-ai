@@ -24,7 +24,7 @@ const BusinessModelSection = () => {
     },
     {
       name: "Pro",
-      price: "$9.99",
+      price: "₹499",
       period: "/month",
       description: "Ideal for growing farms",
       features: [

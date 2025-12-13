@@ -56,11 +56,11 @@ const Footer = () => {
             </p>
             <div className="space-y-3">
               <a
-                href="mailto:info@soilscan.ai"
+                href="mailto:hari167haran@gmail.com"
                 className="flex items-center gap-2 text-sm text-background/70 hover:text-accent transition-colors"
               >
                 <Mail className="w-4 h-4" />
-                info@soilscan.ai
+                hari167haran@gmail.com
               </a>
               <a
                 href="tel:+1234567890"

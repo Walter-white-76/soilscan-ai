@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Scan, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-soil.jpg";
 
 const HeroSection = () => {
@@ -57,9 +58,11 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
             className="flex flex-col sm:flex-row gap-4"
           >
-            <Button variant="accent" size="xl">
-              <Scan className="mr-2 h-5 w-5" />
-              Scan Your Soil
+            <Button variant="accent" size="xl" asChild>
+              <Link to="/scan">
+                <Scan className="mr-2 h-5 w-5" />
+                Scan Your Soil
+              </Link>
             </Button>
             <Button
               variant="outline"

@@ -199,16 +199,27 @@ const SoilResults = () => {
           </motion.p>
         </div>
 
-        {/* Save Report Button */}
-        <Button
-          variant="default"
-          size="xl"
-          className="w-full py-6 text-lg font-semibold"
-          onClick={handleSaveReport}
-        >
-          <Download className="w-5 h-5 mr-2" />
-          SAVE REPORT
-        </Button>
+        {/* Action Buttons */}
+        <div className="space-y-3">
+          <Button
+            variant="default"
+            size="xl"
+            className="w-full py-6 text-lg font-semibold"
+            onClick={() => navigate("/fertilizer", { state: { selectedCrop: crop, soilData: soilMetrics } })}
+          >
+            <Leaf className="w-5 h-5 mr-2" />
+            VIEW FERTILIZER RECOMMENDATIONS
+          </Button>
+          <Button
+            variant="outline"
+            size="xl"
+            className="w-full py-6 text-lg font-semibold"
+            onClick={handleSaveReport}
+          >
+            <Download className="w-5 h-5 mr-2" />
+            SAVE REPORT
+          </Button>
+        </div>
       </motion.div>
     </div>
   );

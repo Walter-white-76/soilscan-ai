@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import ScanSoil from "./pages/ScanSoil";
 import SoilResults from "./pages/SoilResults";
+import FertilizerRecommendations from "./pages/FertilizerRecommendations";
 
 const queryClient = new QueryClient();
 
@@ -20,6 +21,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/scan" element={<ScanSoil />} />
           <Route path="/results" element={<SoilResults />} />
+          <Route path="/fertilizer" element={<FertilizerRecommendations />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

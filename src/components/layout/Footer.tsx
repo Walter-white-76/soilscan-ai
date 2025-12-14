@@ -63,11 +63,11 @@ const Footer = () => {
                 hari167haran@gmail.com
               </a>
               <a
-                href="tel:+1234567890"
+                href="tel:+918637438478"
                 className="flex items-center gap-2 text-sm text-background/70 hover:text-accent transition-colors"
               >
                 <Phone className="w-4 h-4" />
-                +1 (234) 567-890
+                +91 8637438478
               </a>
               <div className="flex items-center gap-2 text-sm text-background/70">
                 <MapPin className="w-4 h-4" />

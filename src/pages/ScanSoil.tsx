@@ -155,6 +155,9 @@ const ScanSoil = () => {
           size="xl"
           className="w-full py-6 text-lg font-semibold"
           disabled={!soilImage}
+          onClick={() =>
+            navigate("/results", { state: { crop: selectedCrop, soilImage } })
+          }
         >
           ANALYZE SOIL
         </Button>

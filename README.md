@@ -23,15 +23,3 @@
 - **Visualization:** Matplotlib / Chart.js  
 
 ---
-
-## 📂 Project Structure
-SoilScan-AI/
-│
-├── data/ # Dataset files
-├── models/ # Trained ML models
-├── backend/ # API and server code
-├── frontend/ # UI components
-├── notebooks/ # Jupyter notebooks
-├── utils/ # Helper functions
-├── app.py # Main application
-└── README.md
